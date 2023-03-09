@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php
 include_once 'database.php';
 if(isset($_POST['upload']))
@@ -8,7 +7,7 @@ if(isset($_POST['upload']))
     $file_loc = $_FILES['file']['tmp_name'];
  $file_size = $_FILES['file']['size'];
  $file_type = $_FILES['file']['type'];
- $folder="assets/";
+ $folder="upload/";
 
  /* new file size in KB */
  $new_size = $file_size/1024;
@@ -26,15 +25,25 @@ if(isset($_POST['upload']))
   mysqli_query($conn,$sql);
 
 
-  echo "Die Datei ist nun auf unserem FTP Server.";
+  echo "Succes!";
 
 
  }
  else
  {
 
-  echo "Es gab einen Fehler, melde dich im Support.";
+  echo "Error.Melde Dich Im Support.";
 
 		}
 	}
 ?>
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Upload Status!</title>
+  </head>
+  <body>
+    <h1>Deine Datei wurde hochgeladen und ist nun auf unserem FTP Server gesichert, um deine Datei abzurufen schreibe mit dem Support.</h1>
+  </body>
+</html>
