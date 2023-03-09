@@ -25,7 +25,7 @@ if(isset($_POST['upload']))
   $sql="INSERT INTO image(file,type,size) VALUES('$final_file','$file_type','$new_size')";
   mysqli_query($conn,$sql);
 
-  header('Refresh: 1; url=index.html');
+
   echo "Die Datei ist nun auf unserem FTP Server.";
 
 
