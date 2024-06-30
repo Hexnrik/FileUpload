@@ -2,7 +2,10 @@
 #### On this website you can have files moved to folders.
 ![On this website you can have files moved to folders.](https://download.hexnrik.de/upload/1432-FileUploadTitlePicture.png)
 
-If you have any problems, feedback or anything else, please let us know in Discord. (https://discord.lucid-hub.de)
+If you have any problems, feedback or anything else, please let us know in Discord. (https://link.hexnrik.de/Discord)
+
+#Demo
+https://dev.hexnrik.de/FileUpload
 
 # What can I use it for?
 
@@ -16,6 +19,6 @@ If you have any problems, feedback or anything else, please let us know in Disco
 
 # How can I get help?
 
-- Through our Discord Support Team. (https://discord.lucid-hub.de)
+- Through our Discord Support Team. (https://link.hexnrik.de/Discord)
 - Via email support. (hilfe@hexnrik.de)
 - Otherwise everything else where you can reach me.
