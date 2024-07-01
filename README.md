@@ -1,6 +1,6 @@
 ### Hi there 👋, this is a project by Hexnrik
 #### On this website you can have files moved to folders.
-![On this website you can have files moved to folders.](https://download.hexnrik.de/upload/1432-FileUploadTitlePicture.png)
+
 
 If you have any problems, feedback or anything else, please let us know in Discord. (https://link.hexnrik.de/Discord)
 
